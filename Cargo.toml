@@ -1,0 +1,8 @@
+[package]
+name = "avx512_test"
+version = "0.1.0"
+authors = ["Jack O'Connor <oconnor663@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+core_arch = { path = "../stdsimd/crates/core_arch" }
